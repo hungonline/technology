@@ -63,20 +63,25 @@
                 width: 'toggle'
             });
         });
-        $('#vibeji-ham').off('click').on('click', function () {
-            $(this).toggleClass('open');
-            $('.main-menu').toggleClass('open');
-            $('body').css('overflow', $(this).hasClass('open') ? 'hidden' : '')
+        $('#vibeji-ham,.close-menu').off('click').on('click', function () {
+            $('.menu-mobile').toggleClass('open');
+            // $('body').css('overflow', $(this).hasClass('open') ? 'hidden' : '')
         });
-        
-        $('.sub_menu').click(function () {
-            if ($(this).next('.level2').css('display') == 'none') {
-                $(this).html('-');
-            } else {
-                $(this).html('+');
-            };
-            $(this).next('.level2').slideToggle("slow", function () {});
+        // $('.sub_menu').on('click', function () {
+        //     const $li = $(this).closest('li');
+        //     const $submenu = $li.find('.level2');
+        //     $submenu.slideToggle(300);
+        //     $(this).toggleClass('active');
+        // });
+        $('.sub_menu').on('click', function () {
+            const $clickedLi = $(this).closest('li');
+            const $clickedSubmenu = $clickedLi.find('.level2');
+            $('.nav .level2').not($clickedSubmenu).slideUp(300);
+            $('.nav .sub_menu').not(this).removeClass('active');
+            $clickedSubmenu.slideToggle(300);
+            $(this).toggleClass('active');
         });
+
 
         $(".tab-default >a").click(function (event) {
             $(".tab-default >a").removeClass("active");

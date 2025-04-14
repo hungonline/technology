@@ -54,7 +54,7 @@
 }
 @media (max-width: 576px) {
     .hidden-mb{
-        display: none;
+        display: none!important;
     }
     .hidden-pc{
         display: block;

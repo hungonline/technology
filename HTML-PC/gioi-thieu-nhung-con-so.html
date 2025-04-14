@@ -47,6 +47,7 @@
     </section>
     <section id="navbar" class="topnav">
         <div class="container">
+            <a href="javascript:;" id="vibeji-ham" class="item"><span></span> <span></span> <span></span></a>
             <a class="icon_home active" href="home.html">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_52_8287)">
@@ -65,16 +66,11 @@
                     <li class="default">
                         <a href="#">Giới thiệu</a>
                         <div class="level2">
-                            <a href="#">Giới thiệu</a>
-                            <a href="#">FAQ</a>
-                            <a href="#">Tin tức</a>
+                            <a href="#">Ban lãnh đạo và cơ cấu tổ chức</a>
+                            <a href="#">Lịch sử hình thành, phát triển</a>
+                            <a href="#">Những con số ấn tượng</a>
+                            <a href="#">Tầm nhìn sứ mệnh</a>
                         </div>
-                        <select name="media_type" id="media_type" class="select_ad" onchange="this.form.submit();">
-                            <option value="text">Bài viết</option>
-                            <option value="image">Ảnh</option>
-                            <option value="video">Video</option>
-                            <option value="topic">Chủ đề</option>
-                        </select>
                     </li>
                     <li><a href="#">Tin tức, sự kiện</a></li>
                     <li><a href="#">thông tin KHOA HỌC - CÔNG NGHỆ</a></li>
@@ -83,28 +79,27 @@
                     <li><a href="#">dịch vụ</a></li>
                     <li><a href="#">liên hệ</a></li>
                 </ul>
-                <div class="search-btn">
-                    <a href="javarscript:;" class="auto_search_button">
+            </div>
+            <div class="search-btn">
+                <a href="javarscript:;" class="auto_search_button">
+                    <svg class="icon-svg">
+                        <use xlink:href="images/icons/icon.svg#search"></use>
+                    </svg>
+                    <svg class="icon-svg close">
+                        <use xlink:href="images/icons/icon.svg#close"></use>
+                    </svg>
+                </a>
+                <div class="search-wrap">
+                    <input type="text" class="search-wrap-input" placeholder="Nhập nội dung...">
+                    <button type="submit" value="">
                         <svg class="icon-svg">
                             <use xlink:href="images/icons/icon.svg#search"></use>
                         </svg>
-                        <svg class="icon-svg close">
-                            <use xlink:href="images/icons/icon.svg#close"></use>
-                        </svg>
-                    </a>
-                    <div class="search-wrap">
-                        <input type="text" class="search-wrap-input" placeholder="Nhập nội dung...">
-                        <button type="submit" value="">
-                            <svg class="icon-svg">
-                                <use xlink:href="images/icons/icon.svg#search"></use>
-                            </svg>
-                        </button>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
     </section>
-
     
 <section class="clearfix">
     <div class="container">
@@ -187,10 +182,48 @@
 
 
 
+    <div class="menu-mobile">
+        <h2 class="lbl">Menu</h2>
+        <a class="close-menu" href="javascript:;">
+            <svg class="icon-svg">
+                <use xlink:href="images/icons/icon.svg#close"></use>
+            </svg>
+        </a>
+        <ul class="nav">
+            <li>
+                <a href="#">Giới thiệu</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Tin tức, sự kiện</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Thông tin KH-CN</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Sản phẩm</a></li>
+            <li><a href="#">Dự án</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </div>
     <div class="overlay"></div>
     <!--Footer-->
     <footer class="footer">
-        <div class="footer-top">
+        <div class="footer-top hidden-mb">
             <div class="container">
                 <ul class="nav">
                     <li class="active"><a href="#">Trang chủ</a></li>

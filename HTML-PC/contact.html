@@ -47,6 +47,7 @@
     </section>
     <section id="navbar" class="topnav">
         <div class="container">
+            <a href="javascript:;" id="vibeji-ham" class="item"><span></span> <span></span> <span></span></a>
             <a class="icon_home active" href="home.html">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_52_8287)">
@@ -65,16 +66,11 @@
                     <li class="default">
                         <a href="#">Giới thiệu</a>
                         <div class="level2">
-                            <a href="#">Giới thiệu</a>
-                            <a href="#">FAQ</a>
-                            <a href="#">Tin tức</a>
+                            <a href="#">Ban lãnh đạo và cơ cấu tổ chức</a>
+                            <a href="#">Lịch sử hình thành, phát triển</a>
+                            <a href="#">Những con số ấn tượng</a>
+                            <a href="#">Tầm nhìn sứ mệnh</a>
                         </div>
-                        <select name="media_type" id="media_type" class="select_ad" onchange="this.form.submit();">
-                            <option value="text">Bài viết</option>
-                            <option value="image">Ảnh</option>
-                            <option value="video">Video</option>
-                            <option value="topic">Chủ đề</option>
-                        </select>
                     </li>
                     <li><a href="#">Tin tức, sự kiện</a></li>
                     <li><a href="#">thông tin KHOA HỌC - CÔNG NGHỆ</a></li>
@@ -83,109 +79,144 @@
                     <li><a href="#">dịch vụ</a></li>
                     <li><a href="#">liên hệ</a></li>
                 </ul>
-                <div class="search-btn">
-                    <a href="javarscript:;" class="auto_search_button">
+            </div>
+            <div class="search-btn">
+                <a href="javarscript:;" class="auto_search_button">
+                    <svg class="icon-svg">
+                        <use xlink:href="images/icons/icon.svg#search"></use>
+                    </svg>
+                    <svg class="icon-svg close">
+                        <use xlink:href="images/icons/icon.svg#close"></use>
+                    </svg>
+                </a>
+                <div class="search-wrap">
+                    <input type="text" class="search-wrap-input" placeholder="Nhập nội dung...">
+                    <button type="submit" value="">
                         <svg class="icon-svg">
                             <use xlink:href="images/icons/icon.svg#search"></use>
                         </svg>
-                        <svg class="icon-svg close">
-                            <use xlink:href="images/icons/icon.svg#close"></use>
-                        </svg>
-                    </a>
-                    <div class="search-wrap">
-                        <input type="text" class="search-wrap-input" placeholder="Nhập nội dung...">
-                        <button type="submit" value="">
-                            <svg class="icon-svg">
-                                <use xlink:href="images/icons/icon.svg#search"></use>
-                            </svg>
-                        </button>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
     </section>
-
     
-<section class="header-main margin-banner clearfix">
-    <div class="container">
-        <div class="text-post">
-            <h1 class="title-page">Liên hệ</h1>
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Đăng ký</li>
-            </ol>
-        </div>
-    </div>
-</section>
 
-<section class="container clearfix page-contact">
-    <h2 class="title-cate center">Get In Touch</h2>
-    <div class="row mb20">
-        <div class="col-md-8 mb20">
-            <div class="form-default">
-                <div class="row min">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Họ và tên">
-                            <span class="error" style="display: none">Lỗi nhập thông tin*</span>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Subject">
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="form-group">
-                            <textarea class="form-control" name="" rows="4" placeholder="Nhập nội dung" style="height: 224px;"></textarea>
-                        </div>
-                    </div>
+
+<section class="clearfix bg-main">
+    <div class="container page-contact">
+        <div class="bg-white pd-20 mb32">
+            <div class="row">
+                <div class="col-md-6 mb20">
+                    <h2 class="title h1">Liên hệ</h2>
+                    <p>Nếu cần hỗ trợ hoặc giải đáp thông tin, vui lòng gọi điện, gửi email hoặc để lại lời nhắn cho chúng tôi. Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn một cách tận tình.</p>
                 </div>
-                <div class="form-check mb16">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        Chấp nhận điều khoản và chính sách
-                    </label>
-                </div>
-                <button type="submit" class="btn-default">Gửi lời nhắn</button>
             </div>
-        </div>
-        <div class="col-md-4 mb20">
-            <div class="box-contact">
-                <h3 class="title">Liên hệ</h3>
-                <p>
-                    <i class="fa fa-map-marker"></i>
-                    10 Phạm Văn Bạch, Dịch Vọng Hậu, Cầu Giấy, Hà Nội
-                </p>
-                <p>
-                    <i class="fa fa-phone"></i>
-                    039.938.3948
-                </p>
-                <p>
-                    <i class="fa fa-paper-plane"></i>
-                    helloworld@gmail.com
-                </p>
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="mb32">
+                        <h2 class="title h2">Email</h2>
+                        cuccnan@gmail.com
+                    </div>
+
+                    <div class="mb32">
+                        <h2 class="title h2">Số điện thoại</h2>
+                        069.232.00.44
+                    </div>
+                    <div class="mb32">
+                        <h2 class="title h2">Địa chỉ liên hệ:</h2>
+                        <ul class="star">
+                            <li>
+                                <i class="fa fa-star"></i>
+                                <p class="txt_18"><b>Cục CNAN, phòng tham mưu tổng hợp</b></p>
+                                <p>Địa chỉ: số 47 Phạm Văn Đồng, Dịch Vọng, Cầu Giấy, Hà Nội</p>
+                                <p>Điện thoại: 099.1324.5678</p>
+                            </li>
+                            <li>
+                                <i class="fa fa-star"></i>
+                                <p class="txt_18"><b>Viện kỹ thuật điện tử nghiệp vụ</b></p>
+                                <p>Địa chỉ: số 47 Phạm Văn Đồng, Dịch Vọng, Cầu Giấy, Hà Nội</p>
+                                <p>Điện thoại: 099.1324.5678</p>
+                            </li>
+                            <li>
+                                <i class="fa fa-star"></i>
+                                <p class="txt_18"><b>Viện quang học vật liệu chuyên dụng</b></p>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6">
+                    <div class="form-default">
+                        <div class="form-group">
+                            <label>Họ và tên</label>
+                            <input type="text" class="form-control">
+                            <span class="error">Lỗi nhập thông tin*</span>
+                        </div>
+                        <div class="form-group">
+                            <label>SĐT</label>
+                            <input type="tel" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Họ và tên</label>
+                            <input type="mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="" rows="4" placeholder="Nhập nội dung" style="height: 150px;"></textarea>
+                        </div>
+                        <button type="submit" class="btn-default full">Gửi</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29794.401396029454!2d105.77725533955076!3d21.020672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1589798118416!5m2!1sen!2s"
-            width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-            tabindex="0"></iframe>
-    </div>
+
 </section>
 <div class="linear-gradient-footer"></div>
 
+    <div class="menu-mobile">
+        <h2 class="lbl">Menu</h2>
+        <a class="close-menu" href="javascript:;">
+            <svg class="icon-svg">
+                <use xlink:href="images/icons/icon.svg#close"></use>
+            </svg>
+        </a>
+        <ul class="nav">
+            <li>
+                <a href="#">Giới thiệu</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Tin tức, sự kiện</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Thông tin KH-CN</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Sản phẩm</a></li>
+            <li><a href="#">Dự án</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </div>
     <div class="overlay"></div>
     <!--Footer-->
     <footer class="footer">
-        <div class="footer-top">
+        <div class="footer-top hidden-mb">
             <div class="container">
                 <ul class="nav">
                     <li class="active"><a href="#">Trang chủ</a></li>

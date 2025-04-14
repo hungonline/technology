@@ -134,7 +134,10 @@ u {
     font-size: 16px
 }
 .txt_18 {
-    font-size: 18px
+    font-size: 18px;
+    @media (max-width: 600px) {
+        font-size: 16px;
+    }
 }
 
 .txt_20 {
@@ -185,6 +188,9 @@ u {
 
 .mb24 {
     margin-bottom: 24px!important;
+    @media screen and (max-width:1199px) {
+        margin-bottom: 20px!important;
+    }
 }
 
 .mb25 {
@@ -281,6 +287,12 @@ u {
 
 .pr-40 {
     padding-right: 40px;
+}
+.pd-0{
+    padding: 0!important;
+}
+.pd-16{
+    padding: 16px;
 }
 .pd-20{
     padding: 20px;

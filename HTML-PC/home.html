@@ -47,6 +47,7 @@
     </section>
     <section id="navbar" class="topnav">
         <div class="container">
+            <a href="javascript:;" id="vibeji-ham" class="item"><span></span> <span></span> <span></span></a>
             <a class="icon_home active" href="home.html">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_52_8287)">
@@ -65,16 +66,11 @@
                     <li class="default">
                         <a href="#">Giới thiệu</a>
                         <div class="level2">
-                            <a href="#">Giới thiệu</a>
-                            <a href="#">FAQ</a>
-                            <a href="#">Tin tức</a>
+                            <a href="#">Ban lãnh đạo và cơ cấu tổ chức</a>
+                            <a href="#">Lịch sử hình thành, phát triển</a>
+                            <a href="#">Những con số ấn tượng</a>
+                            <a href="#">Tầm nhìn sứ mệnh</a>
                         </div>
-                        <select name="media_type" id="media_type" class="select_ad" onchange="this.form.submit();">
-                            <option value="text">Bài viết</option>
-                            <option value="image">Ảnh</option>
-                            <option value="video">Video</option>
-                            <option value="topic">Chủ đề</option>
-                        </select>
                     </li>
                     <li><a href="#">Tin tức, sự kiện</a></li>
                     <li><a href="#">thông tin KHOA HỌC - CÔNG NGHỆ</a></li>
@@ -83,28 +79,27 @@
                     <li><a href="#">dịch vụ</a></li>
                     <li><a href="#">liên hệ</a></li>
                 </ul>
-                <div class="search-btn">
-                    <a href="javarscript:;" class="auto_search_button">
+            </div>
+            <div class="search-btn">
+                <a href="javarscript:;" class="auto_search_button">
+                    <svg class="icon-svg">
+                        <use xlink:href="images/icons/icon.svg#search"></use>
+                    </svg>
+                    <svg class="icon-svg close">
+                        <use xlink:href="images/icons/icon.svg#close"></use>
+                    </svg>
+                </a>
+                <div class="search-wrap">
+                    <input type="text" class="search-wrap-input" placeholder="Nhập nội dung...">
+                    <button type="submit" value="">
                         <svg class="icon-svg">
                             <use xlink:href="images/icons/icon.svg#search"></use>
                         </svg>
-                        <svg class="icon-svg close">
-                            <use xlink:href="images/icons/icon.svg#close"></use>
-                        </svg>
-                    </a>
-                    <div class="search-wrap">
-                        <input type="text" class="search-wrap-input" placeholder="Nhập nội dung...">
-                        <button type="submit" value="">
-                            <svg class="icon-svg">
-                                <use xlink:href="images/icons/icon.svg#search"></use>
-                            </svg>
-                        </button>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
     </section>
-
     
 <section class="bg-main clearfix">
     <div class="container">
@@ -117,56 +112,109 @@
                 </div>
                 <div class="article-content">
                     <h2 class="title"><a href="#" title="#">Bộ trưởng Lương Tam Quang dự Hội nghị thượng đỉnh về An ninh biên giới tại Anh</a></h2>
-                    <div class="des">Chiều và tối ngày 31/3/2025 (theo giờ Việt Nam), Đại tướng Lương Tam Quang, Ủy viên Bộ Chính trị, Bộ trưởng Bộ Công an đã dự và có bài phát biểu quan trọng tại Hội nghị thượng đỉnh về An ninh biên giới được tổ chức tại Luân Đôn, Vương quốc Anh.</div>
+                    <div class="des hidden-mb">Chiều và tối ngày 31/3/2025 (theo giờ Việt Nam), Đại tướng Lương Tam Quang, Ủy viên Bộ Chính trị, Bộ trưởng Bộ Công an đã dự và có bài phát biểu quan trọng tại Hội nghị thượng đỉnh về An ninh biên giới được tổ chức tại Luân Đôn, Vương quốc Anh.</div>
                     <div class="date">Thứ 4, 30/10/2024</div>
                 </div>
             </article>
-
-            <div class="grid grid__4">
-                <article class="article-new full">
-                    <div class="article-thumb">
-                        <a href="#" class="thumb_img thumb_5x3">
-                            <img src="images/graphics/thumb2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="article-content">
-                        <h2 class="title"><a href="#" title="#">Giao ban công tác Quý I năm 2025 các học viện, trường Công an nhân dân</a></h2>
-                    </div>
-                </article>
-                <article class="article-new full">
-                    <div class="article-thumb">
-                        <a href="#" class="thumb_img thumb_5x3">
-                            <img src="images/graphics/thumb3.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="article-content">
-                        <h2 class="title"><a href="#" title="#">Tại sao động đất khó dự đoán chính xác?</a></h2>
-                    </div>
-                </article>
-                <article class="article-new full">
-                    <div class="article-thumb">
-                        <a href="#" class="thumb_img thumb_5x3">
-                            <img src="images/graphics/thumb4.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="article-content">
-                        <h2 class="title"><a href="#" title="#">Giao ban công tác Quý I năm 2025 các học viện, trường Công an nhân dân</a></h2>
-                    </div>
-                </article>
-                <article class="article-new full">
-                    <div class="article-thumb">
-                        <a href="#" class="thumb_img thumb_5x3">
-                            <img src="images/graphics/thumb4.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="article-content">
-                        <h2 class="title"><a href="#" title="#">Giao ban công tác Quý I năm 2025 các học viện, trường Công an nhân dân</a></h2>
-                    </div>
-                </article>
+            <div class="hidden-pc">
+                <div class="box-link grid grid__2 mb40">
+                    <a class="item" href="#" title="Giới thiệu">
+                        <div class="wrap">
+                            <div class="icon"><img src="images/icons/ic-gioithieu.svg" alt=""></div>
+                            <span>Giới thiệu</span>
+                        </div>
+                    </a>
+                    <a class="item" href="#" title="tin tức sự kiện">
+                        <div class="wrap">
+                            <div class="icon"><img src="images/icons/ic-tintuc.svg" alt=""></div>
+                            <span>tin tức</br> sự kiện</span>
+                        </div>
+                    </a>
+                    <a class="item" href="#" title="thông tin khoa học -  công nghệ">
+                        <div class="wrap">
+                            <div class="icon"><img src="images/icons/ic-thongtin.svg" alt=""></div>
+                            <span>thông tin</br> khoa học -  công nghệ</span>
+                        </div>
+                    </a>
+                    <a class="item" href="#" title="Sản phẩm">
+                        <div class="wrap">
+                            <div class="icon"><img src="images/icons/ic-sanpham.svg" alt=""></div>
+                            <span>Sản phẩm</span>
+                        </div>
+                    </a>
+                    <a class="item" href="#" title="Dịch vụ">
+                        <div class="wrap">
+                            <div class="icon"><img src="images/icons/ic-dichvu.svg" alt=""></div>
+                            <span>Dịch vụ</span>
+                        </div>
+                    </a>
+                    <a class="item" href="#" title="Dự án">
+                        <div class="wrap">
+                            <div class="icon"><img src="images/icons/ic-duan.svg" alt=""></div>
+                            <span>Dự án</span>
+                        </div>
+                    </a>
+                    <a class="item" href="#" title="Các đơn vị">
+                        <div class="wrap">
+                            <div class="icon"><img src="images/icons/ic-donvi.svg" alt=""></div>
+                            <span>Các đơn vị</br> trực thuộc</span>
+                        </div>
+                    </a>
+                    <a class="item" href="#" title="Liên hệ">
+                        <div class="wrap">
+                            <div class="icon"><img src="images/icons/ic-lienhe.svg" alt=""></div>
+                            <span>Liên hệ</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="hidden-mb">
+                <div class="grid grid__4">
+                    <article class="article-new full">
+                        <div class="article-thumb">
+                            <a href="#" class="thumb_img thumb_5x3">
+                                <img src="images/graphics/thumb2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="article-content">
+                            <h2 class="title"><a href="#" title="#">Giao ban công tác Quý I năm 2025 các học viện, trường Công an nhân dân</a></h2>
+                        </div>
+                    </article>
+                    <article class="article-new full">
+                        <div class="article-thumb">
+                            <a href="#" class="thumb_img thumb_5x3">
+                                <img src="images/graphics/thumb3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="article-content">
+                            <h2 class="title"><a href="#" title="#">Tại sao động đất khó dự đoán chính xác?</a></h2>
+                        </div>
+                    </article>
+                    <article class="article-new full">
+                        <div class="article-thumb">
+                            <a href="#" class="thumb_img thumb_5x3">
+                                <img src="images/graphics/thumb4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="article-content">
+                            <h2 class="title"><a href="#" title="#">Giao ban công tác Quý I năm 2025 các học viện, trường Công an nhân dân</a></h2>
+                        </div>
+                    </article>
+                    <article class="article-new full">
+                        <div class="article-thumb">
+                            <a href="#" class="thumb_img thumb_5x3">
+                                <img src="images/graphics/thumb4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="article-content">
+                            <h2 class="title"><a href="#" title="#">Giao ban công tác Quý I năm 2025 các học viện, trường Công an nhân dân</a></h2>
+                        </div>
+                    </article>
+                </div>
             </div>
         </div>
 
-        <div class="banner-center mb32">
+        <div class="banner-center hidden-mb mb32">
             <div>
                 <picture>
                     <source media="(min-width:650px)" srcset="images/graphics/banner.png">
@@ -175,7 +223,7 @@
             </div>
         </div>
 
-        <div class="box-article bg-white pd-20 mb32">
+        <div class="box-article bg-white hidden-mb pd-20 mb32">
             <div class="box-article__left">
                 <h2 class="title-cate">Thông tin khoa học công nghệ</h2>
                 <div class="flexbox">
@@ -271,7 +319,7 @@
             </div>
         </div>
 
-        <div class="box-article list-product bg-white pd-20 mb32">
+        <div class="box-article list-product bg-white hidden-mb pd-20 mb32">
             <div class="box-article__left">
                 <h2 class="title-cate">Sản phẩm</h2>
                 <div class="flexbox">
@@ -369,7 +417,7 @@
             </div>
         </div>
 
-        <div class="box-doitac bg-white pd-20">
+        <div class="box-doitac bg-white hidden-mb pd-20">
             <h2 class="title-cate">ĐỐi tác</h2>
             <div class="flex">
                 <span class="logo-doitac">
@@ -397,10 +445,48 @@
 
 
 
+    <div class="menu-mobile">
+        <h2 class="lbl">Menu</h2>
+        <a class="close-menu" href="javascript:;">
+            <svg class="icon-svg">
+                <use xlink:href="images/icons/icon.svg#close"></use>
+            </svg>
+        </a>
+        <ul class="nav">
+            <li>
+                <a href="#">Giới thiệu</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Tin tức, sự kiện</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Thông tin KH-CN</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Sản phẩm</a></li>
+            <li><a href="#">Dự án</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </div>
     <div class="overlay"></div>
     <!--Footer-->
     <footer class="footer">
-        <div class="footer-top">
+        <div class="footer-top hidden-mb">
             <div class="container">
                 <ul class="nav">
                     <li class="active"><a href="#">Trang chủ</a></li>

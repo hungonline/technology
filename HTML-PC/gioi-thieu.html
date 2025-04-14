@@ -47,6 +47,7 @@
     </section>
     <section id="navbar" class="topnav">
         <div class="container">
+            <a href="javascript:;" id="vibeji-ham" class="item"><span></span> <span></span> <span></span></a>
             <a class="icon_home active" href="home.html">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_52_8287)">
@@ -65,16 +66,11 @@
                     <li class="default">
                         <a href="#">Giới thiệu</a>
                         <div class="level2">
-                            <a href="#">Giới thiệu</a>
-                            <a href="#">FAQ</a>
-                            <a href="#">Tin tức</a>
+                            <a href="#">Ban lãnh đạo và cơ cấu tổ chức</a>
+                            <a href="#">Lịch sử hình thành, phát triển</a>
+                            <a href="#">Những con số ấn tượng</a>
+                            <a href="#">Tầm nhìn sứ mệnh</a>
                         </div>
-                        <select name="media_type" id="media_type" class="select_ad" onchange="this.form.submit();">
-                            <option value="text">Bài viết</option>
-                            <option value="image">Ảnh</option>
-                            <option value="video">Video</option>
-                            <option value="topic">Chủ đề</option>
-                        </select>
                     </li>
                     <li><a href="#">Tin tức, sự kiện</a></li>
                     <li><a href="#">thông tin KHOA HỌC - CÔNG NGHỆ</a></li>
@@ -83,28 +79,27 @@
                     <li><a href="#">dịch vụ</a></li>
                     <li><a href="#">liên hệ</a></li>
                 </ul>
-                <div class="search-btn">
-                    <a href="javarscript:;" class="auto_search_button">
+            </div>
+            <div class="search-btn">
+                <a href="javarscript:;" class="auto_search_button">
+                    <svg class="icon-svg">
+                        <use xlink:href="images/icons/icon.svg#search"></use>
+                    </svg>
+                    <svg class="icon-svg close">
+                        <use xlink:href="images/icons/icon.svg#close"></use>
+                    </svg>
+                </a>
+                <div class="search-wrap">
+                    <input type="text" class="search-wrap-input" placeholder="Nhập nội dung...">
+                    <button type="submit" value="">
                         <svg class="icon-svg">
                             <use xlink:href="images/icons/icon.svg#search"></use>
                         </svg>
-                        <svg class="icon-svg close">
-                            <use xlink:href="images/icons/icon.svg#close"></use>
-                        </svg>
-                    </a>
-                    <div class="search-wrap">
-                        <input type="text" class="search-wrap-input" placeholder="Nhập nội dung...">
-                        <button type="submit" value="">
-                            <svg class="icon-svg">
-                                <use xlink:href="images/icons/icon.svg#search"></use>
-                            </svg>
-                        </button>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
     </section>
-
     
 <section class="clearfix">
     <div class="container">
@@ -116,352 +111,35 @@
 
     </div>
 </section>
-<section class="so-do-lanhdao mb80 clearfix">
+<section class="bg-main clearfix">
     <div class="container">
-        <div class="center"><h2 class="title-cate2">BAN LÃNH ĐẠO  VÀ CƠ CẤU TỔ CHỨC</h2></div>
-        <div class="so-do">
-            <div class="center-item">
-                <div class="info">
-                    <div class="ava">
-                        <a href="#" class="thumb_img thumb_5x5">
-                            <img src="images/graphics/TT-Luu-Hong-Quang.png" alt="">
-                        </a>
+        <div class="hidden-pc">
+            <h2 class="title-cate2">Giới thiệu</h2>
+            <div class="box-link grid grid__2 mb40">
+                <a class="item" href="#" title="Ban lãnh đạo và cơ cấu tổ chứcGiới thiệu">
+                    <div class="wrap">
+                        <div class="icon"><img src="images/icons/ic-gioithieu.svg" alt=""></div>
+                        <span>Ban lãnh đạo và cơ cấu tổ chức</span>
                     </div>
-                    <h3 class="name">
-                        thiếu tướng - PGS TS </br>
-                        Lưu Hồng Quảng
-                    </h3>
-                    <div class="postion">Cục trưởng</div>
-                </div>
-            </div>
-            <div class="item row">
-                <div class="info">
-                    <div class="ava">
-                        <a href="#" class="thumb_img thumb_5x5">
-                            <img src="images/graphics/TT-Tran-Van-Doanh.png" alt="">
-                        </a>
+                </a>
+                <a class="item" href="#" title="Lịch sử hình thành, phát triển">
+                    <div class="wrap">
+                        <div class="icon"><img src="images/icons/ic-lichsu.svg" alt=""></div>
+                        <span>Lịch sử hình thành, phát triển</span>
                     </div>
-                    <h3 class="name">
-                        Thiếu tướng </br>
-                        Trần Văn Doanh
-                    </h3>
-                    <div class="postion">Phó cục trưởng</div>
-                </div>
-            </div>
-            <div class="grid grid__2 row-1">
-                <div class="item ">
-                    <div class="info">
-                        <div class="ava">
-                            <a href="#" class="thumb_img thumb_5x5">
-                                <img src="images/graphics/TT-Tran-Van-Doanh.png" alt="">
-                            </a>
-                        </div>
-                        <h3 class="name">
-                            Thiếu tướng </br>
-                            Trần Văn Doanh
-                        </h3>
-                        <div class="postion">Phó cục trưởng</div>
+                </a>
+                <a class="item" href="#" title="Những con số ấn tượng">
+                    <div class="wrap">
+                        <div class="icon"><img src="images/icons/ic-conso.svg" alt=""></div>
+                        <span>Những con số ấn tượng</span>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="info">
-                        <div class="ava">
-                            <a href="#" class="thumb_img thumb_5x5">
-                                <img src="images/graphics/TT-Tran-Van-Doanh.png" alt="">
-                            </a>
-                        </div>
-                        <h3 class="name">
-                            Thiếu tướng </br>
-                            Trần Văn Doanh
-                        </h3>
-                        <div class="postion">Phó cục trưởng</div>
+                </a>
+                <a class="item" href="#" title="Tầm nhìn sứ mệnh">
+                    <div class="wrap">
+                        <div class="icon"><img src="images/icons/ic-tamnhin.svg" alt=""></div>
+                        <span>Tầm nhìn sứ mệnh</span>
                     </div>
-                </div>
-            </div>
-            <div class="grid grid__2 row-2">
-                <div class="item ">
-                    <div class="info">
-                        <div class="ava">
-                            <a href="#" class="thumb_img thumb_5x5">
-                                <img src="images/graphics/TT-Tran-Van-Doanh.png" alt="">
-                            </a>
-                        </div>
-                        <h3 class="name">
-                            Thiếu tướng </br>
-                            Trần Văn Doanh
-                        </h3>
-                        <div class="postion">Phó cục trưởng</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="info">
-                        <div class="ava">
-                            <a href="#" class="thumb_img thumb_5x5">
-                                <img src="images/graphics/TT-Tran-Van-Doanh.png" alt="">
-                            </a>
-                        </div>
-                        <h3 class="name">
-                            Thiếu tướng </br>
-                            Trần Văn Doanh
-                        </h3>
-                        <div class="postion">Phó cục trưởng</div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid grid__2 row-3">
-                <div class="item ">
-                    <div class="info">
-                        <div class="ava">
-                            <a href="#" class="thumb_img thumb_5x5">
-                                <img src="images/graphics/TT-Tran-Van-Doanh.png" alt="">
-                            </a>
-                        </div>
-                        <h3 class="name">
-                            Thiếu tướng </br>
-                            Trần Văn Doanh
-                        </h3>
-                        <div class="postion">Phó cục trưởng</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="info">
-                        <div class="ava">
-                            <a href="#" class="thumb_img thumb_5x5">
-                                <img src="images/graphics/TT-Tran-Van-Doanh.png" alt="">
-                            </a>
-                        </div>
-                        <h3 class="name">
-                            Thiếu tướng </br>
-                            Trần Văn Doanh
-                        </h3>
-                        <div class="postion">Phó cục trưởng</div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid grid__2 row-4">
-                <div class="item ">
-                    <div class="info">
-                        <div class="ava">
-                            <a href="#" class="thumb_img thumb_5x5">
-                                <img src="images/graphics/TT-Tran-Van-Doanh.png" alt="">
-                            </a>
-                        </div>
-                        <h3 class="name">
-                            Thiếu tướng </br>
-                            Trần Văn Doanh
-                        </h3>
-                        <div class="postion">Phó cục trưởng</div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="info">
-                        <div class="ava">
-                            <a href="#" class="thumb_img thumb_5x5">
-                                <img src="images/graphics/TT-Tran-Van-Doanh.png" alt="">
-                            </a>
-                        </div>
-                        <h3 class="name">
-                            Thiếu tướng </br>
-                            Trần Văn Doanh
-                        </h3>
-                        <div class="postion">Phó cục trưởng</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="connect">
-            <div class="neo"><img src="images/graphics/connect-sodo.png" alt=""></div>
-            <div class="grid grid__4">
-                <ul>
-                    <h3>Phòng ban</h3>
-                    <li>Phòng tham mưu
-                        tổng hợp</li>
-                    <li>Phòng quản lý doanh nghiệp</li>
-                </ul>
-                <ul>
-                    <h3>các viện nghiên cứu</h3>
-                    <li>Viện kỹ thuật điện tử nghiệp vụ</li>
-                    <li>Viện Quang học cơ khí và vật liệu chuyên dụng</li>
-                    <li>Viện hóa sinh và môi trường</li>
-                </ul>
-                <ul>
-                    <h3>trung tâm</h3>
-                    <li>Trung tâm kiểm định</li>
-                    <li>Trung tâm kỹ thuật tài liệu nghiệp vụ</li>
-                </ul>
-                <ul>
-                    <h3>công ty trực thuộc</h3>
-                    <li>Công ty Nam Triệu</li>
-                    <li>Công ty 19-5</li>
-                    <li>Công ty Thanh Bình</li>
-                    <li>Công ty Bạch Đằng</li>
-                    <li>Công ty In Ba Đình</li>
-                    <li>Công ty Thăng Long</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="container mb50 clearfix">
-    <div class="center"><h2 class="title-cate2">Nguyên lãnh đạo cục qua các thời kỳ</h2></div>
-    <div class="list-lanh-dao">
-        <div class="center">
-            <div class="tab mb32">
-                <a class="active" href="#">Cục trưởng</a>
-                <a href="#">Phó cục trưởng</a>
-            </div>
-        </div>
-        <div class="grid grid__5">
-            <div class="itemt">
-                <div class="ava">
-                    <a href="#" class="thumb_img thumb_5x5">
-                        <img src="images/graphics/TT-Luu-Hong-Quang.png" alt="">
-                    </a>
-                </div>
-                <div class="info">
-                    <h3 class="name">
-                        Thiếu tướng </br>
-                        Phan Anh Tuấn
-                    </h3>
-                    <p class="position">Nguyên Cục trưởng H08</p>
-                    <div class="exp">5/9/2024 - 5/9/2024</div>
-                </div>
-            </div>
-            <div class="itemt">
-                <div class="ava">
-                    <a href="#" class="thumb_img thumb_5x5">
-                        <img src="images/graphics/TT-Luu-Hong-Quang.png" alt="">
-                    </a>
-                </div>
-                <div class="info">
-                    <h3 class="name">
-                        Thiếu tướng </br>
-                        Phan Anh Tuấn
-                    </h3>
-                    <p class="position">Nguyên Cục trưởng H08</p>
-                    <div class="exp">5/9/2024 - 5/9/2024</div>
-                </div>
-            </div>
-            <div class="itemt">
-                <div class="ava">
-                    <a href="#" class="thumb_img thumb_5x5">
-                        <img src="images/graphics/TT-Luu-Hong-Quang.png" alt="">
-                    </a>
-                </div>
-                <div class="info">
-                    <h3 class="name">
-                        Thiếu tướng </br>
-                        Phan Anh Tuấn
-                    </h3>
-                    <p class="position">Nguyên Cục trưởng H08</p>
-                    <div class="exp">5/9/2024 - 5/9/2024</div>
-                </div>
-            </div>
-            <div class="itemt">
-                <div class="ava">
-                    <a href="#" class="thumb_img thumb_5x5">
-                        <img src="images/graphics/TT-Luu-Hong-Quang.png" alt="">
-                    </a>
-                </div>
-                <div class="info">
-                    <h3 class="name">
-                        Thiếu tướng </br>
-                        Phan Anh Tuấn
-                    </h3>
-                    <p class="position">Nguyên Cục trưởng H08</p>
-                    <div class="exp">5/9/2024 - 5/9/2024</div>
-                </div>
-            </div>
-            <div class="itemt">
-                <div class="ava">
-                    <a href="#" class="thumb_img thumb_5x5">
-                        <img src="images/graphics/TT-Luu-Hong-Quang.png" alt="">
-                    </a>
-                </div>
-                <div class="info">
-                    <h3 class="name">
-                        Thiếu tướng </br>
-                        Phan Anh Tuấn
-                    </h3>
-                    <p class="position">Nguyên Cục trưởng H08</p>
-                    <div class="exp">5/9/2024 - 5/9/2024</div>
-                </div>
-            </div>
-            <div class="itemt">
-                <div class="ava">
-                    <a href="#" class="thumb_img thumb_5x5">
-                        <img src="images/graphics/TT-Luu-Hong-Quang.png" alt="">
-                    </a>
-                </div>
-                <div class="info">
-                    <h3 class="name">
-                        Thiếu tướng </br>
-                        Phan Anh Tuấn
-                    </h3>
-                    <p class="position">Nguyên Cục trưởng H08</p>
-                    <div class="exp">5/9/2024 - 5/9/2024</div>
-                </div>
-            </div>
-            <div class="itemt">
-                <div class="ava">
-                    <a href="#" class="thumb_img thumb_5x5">
-                        <img src="images/graphics/TT-Luu-Hong-Quang.png" alt="">
-                    </a>
-                </div>
-                <div class="info">
-                    <h3 class="name">
-                        Thiếu tướng </br>
-                        Phan Anh Tuấn
-                    </h3>
-                    <p class="position">Nguyên Cục trưởng H08</p>
-                    <div class="exp">5/9/2024 - 5/9/2024</div>
-                </div>
-            </div>
-            <div class="itemt">
-                <div class="ava">
-                    <a href="#" class="thumb_img thumb_5x5">
-                        <img src="images/graphics/TT-Luu-Hong-Quang.png" alt="">
-                    </a>
-                </div>
-                <div class="info">
-                    <h3 class="name">
-                        Thiếu tướng </br>
-                        Phan Anh Tuấn
-                    </h3>
-                    <p class="position">Nguyên Cục trưởng H08</p>
-                    <div class="exp">5/9/2024 - 5/9/2024</div>
-                </div>
-            </div>
-            <div class="itemt">
-                <div class="ava">
-                    <a href="#" class="thumb_img thumb_5x5">
-                        <img src="images/graphics/TT-Luu-Hong-Quang.png" alt="">
-                    </a>
-                </div>
-                <div class="info">
-                    <h3 class="name">
-                        Thiếu tướng </br>
-                        Phan Anh Tuấn
-                    </h3>
-                    <p class="position">Nguyên Cục trưởng H08</p>
-                    <div class="exp">5/9/2024 - 5/9/2024</div>
-                </div>
-            </div>
-            <div class="itemt">
-                <div class="ava">
-                    <a href="#" class="thumb_img thumb_5x5">
-                        <img src="images/graphics/TT-Luu-Hong-Quang.png" alt="">
-                    </a>
-                </div>
-                <div class="info">
-                    <h3 class="name">
-                        Thiếu tướng </br>
-                        Phan Anh Tuấn
-                    </h3>
-                    <p class="position">Nguyên Cục trưởng H08</p>
-                    <div class="exp">5/9/2024 - 5/9/2024</div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -469,10 +147,48 @@
 
 
 
+    <div class="menu-mobile">
+        <h2 class="lbl">Menu</h2>
+        <a class="close-menu" href="javascript:;">
+            <svg class="icon-svg">
+                <use xlink:href="images/icons/icon.svg#close"></use>
+            </svg>
+        </a>
+        <ul class="nav">
+            <li>
+                <a href="#">Giới thiệu</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Tin tức, sự kiện</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Thông tin KH-CN</a>
+                <span class="sub_menu"></span>
+                <ul class="level2">
+                    <li><a href="#" title="">Tin cục công nghiêp an ninh</a></li>
+                    <li><a href="#" title="">Hoạt động thanh niên, phụ nữ, công đoàn H08</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Sản phẩm</a></li>
+            <li><a href="#">Dự án</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </div>
     <div class="overlay"></div>
     <!--Footer-->
     <footer class="footer">
-        <div class="footer-top">
+        <div class="footer-top hidden-mb">
             <div class="container">
                 <ul class="nav">
                     <li class="active"><a href="#">Trang chủ</a></li>

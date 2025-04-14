@@ -81,7 +81,7 @@
 }
 
 .thumb_5x4 {
-    padding-bottom: 92%;
+    padding-bottom: 80%;
 }
 .thumb_2x3{
     padding-bottom: 150%;
@@ -211,6 +211,10 @@ input {
     .art_item {
         margin-bottom: 0;
     }
+    @media screen and (max-width:1199px) {
+        column-gap: 20px;
+        row-gap: 20px;
+    }
 }
 
 .grid {
@@ -226,8 +230,6 @@ input {
 
     &__2 {
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 24px;
-        row-gap: 24px;
     }
 
     &__3 {
@@ -384,9 +386,9 @@ input {
     border-radius: 4px;
     padding: 12px 30px;
     text-align: center;
-    background: #6610F2;
+    background: #133897;
     transition: 0.2s all;
-    border: 1px solid #6610F2;
+    border: 1px solid #133897;
     cursor: pointer;
     &:hover {
         color: #fff;
@@ -560,7 +562,6 @@ input {
     .author,.view,.date{
         color: #828282;
         font-size: 14px;
-        font-weight: bold;
         .folder{
             color: #666;font-weight: bold;
             &:hover{
@@ -747,6 +748,9 @@ input {
         overflow: auto;
         -webkit-overflow-scrolling: touch;
         -ms-overflow-style: -ms-autohiding-scrollbar;
+        &.block{
+            display: flex;
+        }
     }
 }
 
@@ -967,7 +971,6 @@ input {
 }
 
 .pagination{
-    justify-content: center;  
     .page-item{
         margin: 0 4px;
     }
@@ -984,8 +987,8 @@ input {
         line-height: 41px;
         outline: 0;
         &:hover{
-            border-color: #6610F2;
-            color: #6610F2;
+            border-color: #1445E1;
+            color: #1445E1;
             background: none;
         }
         &:focus{
@@ -993,9 +996,9 @@ input {
         }
     }
     .page-item.active .page-link{
-        border-color: #6610F2;
-        color: #6610F2;
-        background: none;
+        border-color: #1445E1;
+        color: #fff;
+        background: #1445E1;
     } 
 }
 .btn-send{
@@ -1016,7 +1019,8 @@ input {
     }
     .form-control{
         border-radius: 4px;
-        border: 1px solid #E4E4EB;
+        border: 1px solid #F7F7F7;
+        background: #F7F7F7;
         height: 50px;
         font-size: 16px;
         color: #00234B;
@@ -1027,7 +1031,7 @@ input {
         &:active {
             outline: 0;
             box-shadow: none;
-            border: 1px solid #6610F2;
+            border: 1px solid #133897;
         }
     }
     .error{
